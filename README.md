@@ -1,7 +1,7 @@
 # Audio-Replacer
 Python GUI tool for quick replacing audio track in mp4 video files without rendering, using ffmpeg libraries.
 
-For make this tool work on Windows you need to install:
+For make this tool work on Windows you need to have installed:
 - Python: https://www.python.org/downloads/ 
 - FFmpeg https://ffmpeg.org/download.html 
 
