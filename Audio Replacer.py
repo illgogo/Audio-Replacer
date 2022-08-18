@@ -9,7 +9,7 @@ root.geometry("400x120")
 
 # ask FFmpeg to copy video and audio as input files and make a new container as output video file
 def replace_audio():
-    string = f"ffmpeg.exe -i {Ent1.get()} -i {Ent2.get()} -map 0:v -map 1:a -c:v copy {Ent3.get()}"
+    string=f'ffmpeg.exe -i "{Ent1.get()}" -i "{Ent2.get()}" -map 0:v -map 1:a -c:v copy "{Ent3.get()}"'
     os.system(string)
 # open mp4 video file
 def open_file():
