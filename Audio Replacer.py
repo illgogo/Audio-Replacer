@@ -13,7 +13,7 @@ def replace_audio():
     os.system(string)
 # open mp4 video file
 def open_file():
-    input_file_name= tkinter.filedialog.askopenfilenames(defaultextension=".mp4",
+    input_file_name= tkinter.filedialog.askopenfilename(defaultextension=".mp4",
                                        filetypes=[("*.mp4", "All Files"), ("*.mp4", "mp4 files" )])
     Ent1.insert(END, input_file_name)
     Ent3.insert(END, input_file_name)
